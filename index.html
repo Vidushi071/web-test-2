@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="text"><h2 style="color: rgb(65, 60, 60);margin-bottom: 20px;">SEARCH YOUR FAVOURITE MOVIES</h2></div>
+        
+        <input type = "text" id = "movie_name" placeholder = "Search.." />
+        <button id = "submit" onclick="loadMovie()">Submit</button>
+
+        
+    </div>
+    
+   
+    <div class="btn_container">
+
+    <form name="music" method="post" action="">
+        
+        <input type="radio" name="color" value="radio" onClick="changeColour('white')" id="white">
+        <input type="radio" name="color" value="radio" onClick="changeColour('green')" id="green">
+        <input type="radio" name="color" value="radio" onClick="changeColour('pink')" id="pink">
+        <input type="radio" name="color" value="radio" onClick="changeColour('black')" id="black">
+        <input type="radio"  name="color" value="radio" onClick="changeColour('blue')" id="blue">
+        
+        </form>
+    </div>
+
+    <div class="movie_sec">
+        <div id = "demo"></div>
+    </div>
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
